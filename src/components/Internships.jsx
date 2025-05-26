@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 // import { internships } from "../data/internship";
 import bg2 from "../assets/bg2.png";
-import { MapPin, Building, Search } from "lucide-react"; // Icons
-import { motion } from "framer-motion"; // For animations
+import { MapPin, Building, Search } from "lucide-react"; 
+import { motion } from "framer-motion"; 
 
 const internshipss = [
   {
@@ -60,8 +60,7 @@ const Internships = () => {
       <section className="max-w-5xl mx-auto py-16 px-4">
         <h2 className="text-3xl font-bold mb-10 text-center text-gray-800">
           🚀 Explore Exciting Internships
-        </h2>
-        {/* search input */}
+        </h2>       
         <div className="flex justify-center mb-10">
           <div className="relative w-full max-w-md">
             <input

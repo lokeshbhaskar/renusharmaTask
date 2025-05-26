@@ -6,6 +6,7 @@ import Login from "./Login";
 import AuthPage from "./AuthPage";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Companies from "../components/Companies";
 
 const LandingPage = () => {
   return (
@@ -13,6 +14,7 @@ const LandingPage = () => {
       <Navbar />
       <Main />
       <Internships />
+      <Companies />
       <Testimonials />
       {/* <AuthPage /> */}
       <Footer />
